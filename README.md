@@ -1,4 +1,5 @@
-# Example on how to use Markjs together with React and Redux to save, restore and delete markings (or highlighted texts), using localStorage.
+# Example on how to use Markjs together with React and Redux 
+to save, restore and delete markings (or highlighted texts), using localStorage.
 
 # Based on Universal Redux Template (https://github.com/mz026/universal-redux-template)
 
