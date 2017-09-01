@@ -1,0 +1,139 @@
+@import "intro";
+@import "buttons";
+
+@mixin bootstrap-button($background) {
+  $color: #fff;
+  $border: 5%;
+  @if (lightness($background) >= lightness(#aaa)) {
+    $color: #333;
+    $border: .2 * lightness($background);
+  }
+  @include button-variant($color, $background, darken($background, $border));
+}
+
+body {
+  font-family: Helvetica;
+}
+
+@media screen {
+
+  /* Filter drop down */
+  .menu {
+    position: fixed;
+    font-size: 0.875rem;
+    background-color: transparent;
+    min-width: 16rem;
+    z-index: 60;
+    color: var(--text-color-dark);
+    user-select: none;
+    display: block;
+  }
+
+  .menu[data-istouchdevice="true"] {
+    top: 5rem;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .menu[hidden] {
+    display: none;
+  }
+
+  .menu-underlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(255, 0, 0, 0.2);
+  }
+
+  .menu-option {
+    padding: 0.8rem;
+    display: block;
+    width: 100%;
+    margin-top: 0;
+    border: 1px solid #eee;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.55);
+    color: #fff;
+    background-color: rgba(0, 0, 255, 0.85);
+    border-color: rgba(0, 0, 230, 0.5);
+  }
+
+  .menu-option:disabled {
+    color: #aaa;
+  }
+  .menu-option:disabled .icon {
+    fill: #aaa;
+  }
+
+  .menu-option + .menu-option {
+    border-top: 1px solid #eee;
+  }
+
+  .menu-option.disabled {
+    background-color: #fff;
+    color: #999;
+  }
+
+  .menu-option.disabled svg {
+    fill: #999;
+  }
+
+  .menu-option svg {
+    vertical-align: middle;
+    display: inline-block;
+  }
+
+  .menu-text {
+    margin-left: 1rem;
+    margin-top: 0;
+    vertical-align: middle;
+    display: inline-block;
+    user-select: none;
+  }
+
+  .editor {
+    background-color: #fff;
+    border: 1px solid #eee;
+    box-shadow: 0 5px 10px #e6f7ff;
+  }
+
+  .editor textarea {
+    height: 7rem;
+    width: 99%;
+    resize: none;
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.07);
+    border-image: none;
+    border-style: none solid solid none;
+    border: none;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1rem;
+    line-height: 1.1rem;
+    transition: background-color 0.2s ease 0s;
+  }
+  .button-container {
+    position: absolute;
+    width: 50%;
+    bottom: -45px;
+    right: 0;
+  }
+
+  .editor button {
+    width: 50%;
+    height: 3rem;
+    text-align: center;
+    border-top: 1px solid #eee;
+    color: #666;
+    @include bootstrap-button(rgba(0, 0, 255, 1.0))
+  }
+
+  .editor button:first-of-type {
+    border-right: 1px solid #eee;
+  }
+
+  mark.mark-temporary {
+    background-color: #e7f6ee;
+  }
+}
+
