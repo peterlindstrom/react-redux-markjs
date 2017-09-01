@@ -434,19 +434,19 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1504032144005</updated>
-      <workItem from="1504032145564" duration="52773000" />
+      <workItem from="1504032145564" duration="53512000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52773000" />
+    <option name="totallyTimeSpent" value="53512000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1046" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24954791" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24954791" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32914045" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -758,13 +758,13 @@
         <state relative-caret-position="234">
           <caret line="109" column="38" lean-forward="false" selection-start-line="109" selection-start-column="38" selection-end-line="109" selection-end-column="38" />
           <folding>
-            <marker date="1504226107000" expanded="true" signature="400:2746" ph="{...}" />
-            <marker date="1504226107000" expanded="true" signature="2049:2744" ph="{...}" />
-            <marker date="1504226107000" expanded="true" signature="2112:2733" ph="&lt;div/&gt;" />
-            <marker date="1504226107000" expanded="true" signature="2290:2720" ph="&lt;div/&gt;" />
-            <marker date="1504226107000" expanded="true" signature="2770:2796" ph="{...}" />
-            <marker date="1504226107000" expanded="true" signature="2818:3337" ph="{&quot;visibleEditor&quot;: PropTypes.bool...}" />
-            <marker date="1504226107000" expanded="true" signature="2888:3126" ph="{&quot;id&quot;: PropTypes.string...}" />
+            <marker date="1504226705000" expanded="true" signature="400:2746" ph="{...}" />
+            <marker date="1504226705000" expanded="true" signature="2049:2744" ph="{...}" />
+            <marker date="1504226705000" expanded="true" signature="2112:2733" ph="&lt;div/&gt;" />
+            <marker date="1504226705000" expanded="true" signature="2290:2720" ph="&lt;div/&gt;" />
+            <marker date="1504226705000" expanded="true" signature="2770:2796" ph="{...}" />
+            <marker date="1504226705000" expanded="true" signature="2818:3337" ph="{&quot;visibleEditor&quot;: PropTypes.bool...}" />
+            <marker date="1504226705000" expanded="true" signature="2888:3126" ph="{&quot;id&quot;: PropTypes.string...}" />
           </folding>
         </state>
       </provider>
@@ -814,12 +814,12 @@
         <state relative-caret-position="207">
           <caret line="63" column="25" lean-forward="false" selection-start-line="63" selection-start-column="25" selection-end-line="63" selection-end-column="25" />
           <folding>
-            <marker date="1504226107000" expanded="true" signature="199:1818" ph="{...}" />
-            <marker date="1504226107000" expanded="true" signature="1247:1816" ph="{...}" />
-            <marker date="1504226107000" expanded="true" signature="1319:1805" ph="&lt;div/&gt;" />
-            <marker date="1504226107000" expanded="true" signature="1535:1790" ph="&lt;div/&gt;" />
-            <marker date="1504226107000" expanded="true" signature="1553:1773" ph="&lt;button/&gt;" />
-            <marker date="1504226107000" expanded="true" signature="1837:2015" ph="{&quot;posY&quot;: PropTypes.number...}" />
+            <marker date="1504226705000" expanded="true" signature="199:1818" ph="{...}" />
+            <marker date="1504226705000" expanded="true" signature="1247:1816" ph="{...}" />
+            <marker date="1504226705000" expanded="true" signature="1319:1805" ph="&lt;div/&gt;" />
+            <marker date="1504226705000" expanded="true" signature="1535:1790" ph="&lt;div/&gt;" />
+            <marker date="1504226705000" expanded="true" signature="1553:1773" ph="&lt;button/&gt;" />
+            <marker date="1504226705000" expanded="true" signature="1837:2015" ph="{&quot;posY&quot;: PropTypes.number...}" />
           </folding>
         </state>
       </provider>
