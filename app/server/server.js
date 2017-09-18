@@ -4,7 +4,7 @@ import compression from 'compression'
 import clearRequireCacheOnChange from './lib/clearRequireCacheOnChange'
 
 let server = new Express()
-let port = process.env.PORT || 8080
+let port = process.env.PORT || 3000
 
 server.use(compression())
 
