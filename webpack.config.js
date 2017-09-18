@@ -2,6 +2,7 @@ var path = require('path')
 var webpack = require('webpack')
 var AssetsPlugin = require('assets-webpack-plugin')
 
+console.log('process.env.NODE_ENV', process.env.NODE_ENV);
 var DEBUG = !(process.env.NODE_ENV === 'production')
 
 if (DEBUG) {
